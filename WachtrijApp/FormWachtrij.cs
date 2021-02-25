@@ -97,6 +97,20 @@ namespace WachtrijApp
             }
             Wachttijd += 5;
 
+            string node09 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor08").InnerText;
+            if (node08 == "False")
+            {
+                return Wachttijd;
+            }
+            Wachttijd += 5;
+
+            string node10 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor08").InnerText;
+            if (node08 == "False")
+            {
+                return Wachttijd;
+            }
+            Wachttijd += 5;
+
             return Wachttijd;
         }
 
@@ -139,6 +153,10 @@ namespace WachtrijApp
             if (StatusNr == "4")
             {
                 return "Komt binnen";
+            }
+            if (StatusNr =="5")
+            {
+                return "in onderhoud";
             }
 
             return "";
