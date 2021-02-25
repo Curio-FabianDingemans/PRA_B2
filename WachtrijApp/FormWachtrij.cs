@@ -165,10 +165,5 @@ namespace WachtrijApp
 
             return "";
         }
-
-        private void FormWachtrij_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

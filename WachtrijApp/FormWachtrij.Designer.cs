@@ -45,9 +45,13 @@
             this.labelTitel.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitel.Location = new System.Drawing.Point(26, 18);
             this.labelTitel.Name = "labelTitel";
+<<<<<<< HEAD
             this.labelTitel.Size = new System.Drawing.Size(152, 32);
+=======
+            this.labelTitel.Size = new System.Drawing.Size(186, 32);
+>>>>>>> parent of 9967914 (Titel aangepast)
             this.labelTitel.TabIndex = 0;
-            this.labelTitel.Text = "Debug Hero";
+            this.labelTitel.Text = "Bugs of Horror";
             // 
             // labelWachttijd
             // 
@@ -73,9 +77,15 @@
             // 
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
+<<<<<<< HEAD
             this.AttractieLogo.Location = new System.Drawing.Point(361, 161);
             this.AttractieLogo.Name = "AttractieLogo";
             this.AttractieLogo.Size = new System.Drawing.Size(155, 165);
+=======
+            this.AttractieLogo.Location = new System.Drawing.Point(168, 87);
+            this.AttractieLogo.Name = "AttractieLogo";
+            this.AttractieLogo.Size = new System.Drawing.Size(110, 141);
+>>>>>>> parent of 9967914 (Titel aangepast)
             this.AttractieLogo.TabIndex = 6;
             this.AttractieLogo.TabStop = false;
             this.AttractieLogo.Click += new System.EventHandler(this.AttractieLogo_Click);
@@ -109,13 +119,28 @@
             this.labelKar3.Size = new System.Drawing.Size(57, 18);
             this.labelKar3.TabIndex = 10;
             this.labelKar3.Text = "Kar 3: ...";
+            // AttractieLogo
+            // 
+            this.AttractieLogo.ErrorImage = null;
+            this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
+            this.AttractieLogo.Location = new System.Drawing.Point(362, 134);
+            this.AttractieLogo.Name = "AttractieLogo";
+            this.AttractieLogo.Size = new System.Drawing.Size(155, 165);
+            this.AttractieLogo.TabIndex = 6;
+            this.AttractieLogo.TabStop = false;
+            this.AttractieLogo.Click += new System.EventHandler(this.AttractieLogo_Click);
             // 
             // FormWachtrij
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(576, 381);
+=======
+            this.BackColor = System.Drawing.Color.Peru;
+            this.ClientSize = new System.Drawing.Size(279, 227);
+>>>>>>> parent of 9967914 (Titel aangepast)
             this.Controls.Add(this.labelKar3);
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
@@ -126,7 +151,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormWachtrij";
             this.Text = "Bugs of Horror";
-            this.Load += new System.EventHandler(this.FormWachtrij_Load);
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
