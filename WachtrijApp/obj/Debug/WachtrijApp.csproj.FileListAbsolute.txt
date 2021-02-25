@@ -10,3 +10,15 @@ C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.csproj.GenerateResource.cac
 C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.csproj.CoreCompileInputs.cache
 C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.exe
 C:\git\WachtrijApp\WachtrijApp\obj\Debug\WachtrijApp.pdb
+C:\Users\semir\source\repos\PRA_B2\WachtrijApp\bin\Debug\SensorData\AttractieStatus.xml
+C:\Users\semir\source\repos\PRA_B2\WachtrijApp\bin\Debug\SensorData\WachtrijSensoren.xml
+C:\Users\semir\source\repos\PRA_B2\WachtrijApp\bin\Debug\WachtrijApp.exe.config
+C:\Users\semir\source\repos\PRA_B2\WachtrijApp\bin\Debug\WachtrijApp.exe
+C:\Users\semir\source\repos\PRA_B2\WachtrijApp\bin\Debug\WachtrijApp.pdb
+C:\Users\semir\source\repos\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csprojAssemblyReference.cache
+C:\Users\semir\source\repos\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.FormWachtrij.resources
+C:\Users\semir\source\repos\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.Properties.Resources.resources
+C:\Users\semir\source\repos\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.GenerateResource.cache
+C:\Users\semir\source\repos\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.CoreCompileInputs.cache
+C:\Users\semir\source\repos\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.exe
+C:\Users\semir\source\repos\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.pdb

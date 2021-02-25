@@ -32,7 +32,6 @@
             this.labelTitel = new System.Windows.Forms.Label();
             this.labelWachttijd = new System.Windows.Forms.Label();
             this.labelWachttijdMelding = new System.Windows.Forms.Label();
-            this.AttractieLogo = new System.Windows.Forms.PictureBox();
             this.labelKar2 = new System.Windows.Forms.Label();
             this.labelKar1 = new System.Windows.Forms.Label();
             this.labelKar3 = new System.Windows.Forms.Label();
@@ -45,9 +44,10 @@
             this.labelTitel.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitel.Location = new System.Drawing.Point(26, 18);
             this.labelTitel.Name = "labelTitel";
-            this.labelTitel.Size = new System.Drawing.Size(186, 32);
+            this.labelTitel.Size = new System.Drawing.Size(152, 32);
             this.labelTitel.TabIndex = 0;
-            this.labelTitel.Text = "Bugs of Horror";
+            this.labelTitel.Text = "Debug Hero";
+            this.labelTitel.Click += new System.EventHandler(this.labelTitel_Click);
             // 
             // labelWachttijd
             // 
@@ -58,6 +58,7 @@
             this.labelWachttijd.Size = new System.Drawing.Size(99, 25);
             this.labelWachttijd.TabIndex = 4;
             this.labelWachttijd.Text = "Wachttijd";
+            this.labelWachttijd.Click += new System.EventHandler(this.labelWachttijd_Click);
             // 
             // labelWachttijdMelding
             // 
@@ -68,17 +69,7 @@
             this.labelWachttijdMelding.Size = new System.Drawing.Size(71, 18);
             this.labelWachttijdMelding.TabIndex = 5;
             this.labelWachttijdMelding.Text = "0 minuten";
-            // 
-            // AttractieLogo
-            // 
-            this.AttractieLogo.ErrorImage = null;
-            this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
-            this.AttractieLogo.Location = new System.Drawing.Point(168, 87);
-            this.AttractieLogo.Name = "AttractieLogo";
-            this.AttractieLogo.Size = new System.Drawing.Size(110, 141);
-            this.AttractieLogo.TabIndex = 6;
-            this.AttractieLogo.TabStop = false;
-            this.AttractieLogo.Click += new System.EventHandler(this.AttractieLogo_Click);
+            this.labelWachttijdMelding.Click += new System.EventHandler(this.labelWachttijdMelding_Click);
             // 
             // labelKar2
             // 
@@ -114,19 +105,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Peru;
-            this.ClientSize = new System.Drawing.Size(279, 227);
+            this.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ClientSize = new System.Drawing.Size(518, 301);
             this.Controls.Add(this.labelKar3);
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
-            this.Controls.Add(this.AttractieLogo);
             this.Controls.Add(this.labelWachttijdMelding);
             this.Controls.Add(this.labelWachttijd);
             this.Controls.Add(this.labelTitel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormWachtrij";
             this.Text = "Bugs of Horror";
-            ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).EndInit();
+            this.Load += new System.EventHandler(this.FormWachtrij_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,7 +127,6 @@
         private System.Windows.Forms.Label labelTitel;
         private System.Windows.Forms.Label labelWachttijd;
         private System.Windows.Forms.Label labelWachttijdMelding;
-        private System.Windows.Forms.PictureBox AttractieLogo;
         private System.Windows.Forms.Label labelKar2;
         private System.Windows.Forms.Label labelKar1;
         private System.Windows.Forms.Label labelKar3;
