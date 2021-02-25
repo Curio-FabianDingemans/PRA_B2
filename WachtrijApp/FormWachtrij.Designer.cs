@@ -109,6 +109,16 @@
             this.labelKar3.Size = new System.Drawing.Size(57, 18);
             this.labelKar3.TabIndex = 10;
             this.labelKar3.Text = "Kar 3: ...";
+            // AttractieLogo
+            // 
+            this.AttractieLogo.ErrorImage = null;
+            this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
+            this.AttractieLogo.Location = new System.Drawing.Point(362, 134);
+            this.AttractieLogo.Name = "AttractieLogo";
+            this.AttractieLogo.Size = new System.Drawing.Size(155, 165);
+            this.AttractieLogo.TabIndex = 6;
+            this.AttractieLogo.TabStop = false;
+            this.AttractieLogo.Click += new System.EventHandler(this.AttractieLogo_Click);
             // 
             // FormWachtrij
             // 
