@@ -93,6 +93,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::WachtrijApp.Properties.Resources.Hero01;
             this.pictureBox1.Location = new System.Drawing.Point(355, 131);
             this.pictureBox1.Name = "pictureBox1";
