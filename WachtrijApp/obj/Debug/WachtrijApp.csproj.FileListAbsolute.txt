@@ -34,3 +34,14 @@ C:\Users\rickb\OneDrive - Curio\jaar 1\PRAKTIJK\B2\PRA_B2\WachtrijApp\obj\Debug\
 C:\Users\rickb\OneDrive - Curio\jaar 1\PRAKTIJK\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.CoreCompileInputs.cache
 C:\Users\rickb\OneDrive - Curio\jaar 1\PRAKTIJK\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.exe
 C:\Users\rickb\OneDrive - Curio\jaar 1\PRAKTIJK\B2\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.pdb
+C:\Users\fabia\source\repos\school\PRA_B2\WachtrijApp\bin\Debug\SensorData\AttractieStatus.xml
+C:\Users\fabia\source\repos\school\PRA_B2\WachtrijApp\bin\Debug\SensorData\WachtrijSensoren.xml
+C:\Users\fabia\source\repos\school\PRA_B2\WachtrijApp\bin\Debug\WachtrijApp.exe.config
+C:\Users\fabia\source\repos\school\PRA_B2\WachtrijApp\bin\Debug\WachtrijApp.exe
+C:\Users\fabia\source\repos\school\PRA_B2\WachtrijApp\bin\Debug\WachtrijApp.pdb
+C:\Users\fabia\source\repos\school\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csprojAssemblyReference.cache
+C:\Users\fabia\source\repos\school\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.FormWachtrij.resources
+C:\Users\fabia\source\repos\school\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.Properties.Resources.resources
+C:\Users\fabia\source\repos\school\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.GenerateResource.cache
+C:\Users\fabia\source\repos\school\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.exe
+C:\Users\fabia\source\repos\school\PRA_B2\WachtrijApp\obj\Debug\WachtrijApp.pdb
