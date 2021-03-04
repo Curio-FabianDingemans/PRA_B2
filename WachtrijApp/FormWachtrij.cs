@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Xml;
+using System.Drawing;
 
 namespace WachtrijApp
 {
@@ -11,12 +12,32 @@ namespace WachtrijApp
             InitializeComponent();
         }
 
+        int BTN_Clicks = 1;
+
         //  Er is op het logo geklikt. Die actie start een event welke de onderstaande methode aanroept.
         private void AttractieLogo_Click(object sender, EventArgs e)
         {
             VerwerkWachtrijSensorData();
 
             VerwerkAttractieStatusData();
+
+            EA_ResetTime.Enabled = true;
+            BTN_Clicks = BTN_Clicks + 1;
+        }
+
+        private void EA_ResetTime_Tick(object sender, EventArgs e)
+        {
+            EA_ResetTime.Enabled = false;
+            if (BTN_Clicks == 3){
+                MoveImg.Enabled = true;
+                labelKar1.Visible = false;
+                labelKar2.Visible = false;
+                labelKar3.Visible = false;
+                labelTitel.Visible = false;
+                labelWachttijd.Visible = false;
+                labelWachttijdMelding.Visible = false;
+            }
+            BTN_Clicks = 1;
         }
 
         private void VerwerkWachtrijSensorData()
@@ -164,6 +185,24 @@ namespace WachtrijApp
             }
 
             return "";
+        }
+
+        private void MoveImg_Tick(object sender, EventArgs e)
+        {
+            AttractieLogo.Left = AttractieLogo.Left - 5;
+            AttractieLogo.Top = AttractieLogo.Top - 2;
+            if (AttractieLogo.Left < -200 && AttractieLogo.Top < -100) {
+                MoveImg.Enabled = false;
+                AttractieLogo.Left = 368;
+                AttractieLogo.Top = 149;
+
+                labelKar1.Visible = true;
+                labelKar2.Visible = true;
+                labelKar3.Visible = true;
+                labelTitel.Visible = true;
+                labelWachttijd.Visible = true;
+                labelWachttijdMelding.Visible = true;
+            }
         }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormWachtrij));
             this.labelTitel = new System.Windows.Forms.Label();
             this.labelWachttijd = new System.Windows.Forms.Label();
@@ -36,6 +37,8 @@
             this.labelKar2 = new System.Windows.Forms.Label();
             this.labelKar1 = new System.Windows.Forms.Label();
             this.labelKar3 = new System.Windows.Forms.Label();
+            this.EA_ResetTime = new System.Windows.Forms.Timer(this.components);
+            this.MoveImg = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,7 +76,7 @@
             // 
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
-            this.AttractieLogo.Location = new System.Drawing.Point(362, 134);
+            this.AttractieLogo.Location = new System.Drawing.Point(368, 149);
             this.AttractieLogo.Name = "AttractieLogo";
             this.AttractieLogo.Size = new System.Drawing.Size(155, 165);
             this.AttractieLogo.TabIndex = 6;
@@ -110,16 +113,26 @@
             this.labelKar3.TabIndex = 10;
             this.labelKar3.Text = "Kar 3: ...";
             // 
+            // EA_ResetTime
+            // 
+            this.EA_ResetTime.Interval = 500;
+            this.EA_ResetTime.Tick += new System.EventHandler(this.EA_ResetTime_Tick);
+            // 
+            // MoveImg
+            // 
+            this.MoveImg.Interval = 25;
+            this.MoveImg.Tick += new System.EventHandler(this.MoveImg_Tick);
+            // 
             // FormWachtrij
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(576, 381);
+            this.Controls.Add(this.AttractieLogo);
             this.Controls.Add(this.labelKar3);
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
-            this.Controls.Add(this.AttractieLogo);
             this.Controls.Add(this.labelWachttijdMelding);
             this.Controls.Add(this.labelWachttijd);
             this.Controls.Add(this.labelTitel);
@@ -141,6 +154,8 @@
         private System.Windows.Forms.Label labelKar2;
         private System.Windows.Forms.Label labelKar1;
         private System.Windows.Forms.Label labelKar3;
+        private System.Windows.Forms.Timer EA_ResetTime;
+        private System.Windows.Forms.Timer MoveImg;
     }
 }
 
