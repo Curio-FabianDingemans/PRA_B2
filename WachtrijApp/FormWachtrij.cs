@@ -36,6 +36,7 @@ namespace WachtrijApp
                 labelTitel.Visible = false;
                 labelWachttijd.Visible = false;
                 labelWachttijdMelding.Visible = false;
+                btnReset.Visible = false;
             }
             BTN_Clicks = 1;
         }
@@ -205,6 +206,7 @@ namespace WachtrijApp
                 labelTitel.Visible = true;
                 labelWachttijd.Visible = true;
                 labelWachttijdMelding.Visible = true;
+                btnReset.Visible = true;
             }
         }
         
