@@ -204,5 +204,10 @@ namespace WachtrijApp
                 labelWachttijdMelding.Visible = true;
             }
         }
+        
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            VerwerkWachtrijSensorData();
+        }
     }
 }
