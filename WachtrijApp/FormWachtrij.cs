@@ -197,8 +197,8 @@ namespace WachtrijApp
             AttractieLogo.Top = AttractieLogo.Top - 2;
             if (AttractieLogo.Left < -200 && AttractieLogo.Top < -100) {
                 MoveImg.Enabled = false;
-                AttractieLogo.Left = 368;
-                AttractieLogo.Top = 149;
+                AttractieLogo.Left = 276;
+                AttractieLogo.Top = 121;
 
                 labelKar1.Visible = true;
                 labelKar2.Visible = true;
