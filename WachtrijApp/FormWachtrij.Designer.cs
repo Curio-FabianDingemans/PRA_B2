@@ -78,7 +78,7 @@
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
             this.AttractieLogo.Location = new System.Drawing.Point(276, 121);
-            this.AttractieLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AttractieLogo.Margin = new System.Windows.Forms.Padding(2);
             this.AttractieLogo.Name = "AttractieLogo";
             this.AttractieLogo.Size = new System.Drawing.Size(155, 165);
             this.AttractieLogo.TabIndex = 6;
@@ -127,12 +127,12 @@
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(22, 219);
-            this.btnReset.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReset.Location = new System.Drawing.Point(32, 239);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(2);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(92, 47);
             this.btnReset.TabIndex = 11;
-            this.btnReset.Text = "Reset";
+            this.btnReset.Text = "Update Status";
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
